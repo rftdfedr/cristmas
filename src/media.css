@@ -1,0 +1,192 @@
+@media only screen and (max-width:600px){
+    .h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 80px;
+    }
+    
+    .h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .h4 {
+        font-size: 0.938rem;
+        font-weight: 400;
+    }
+    
+    .h5 {
+        font-size: 0.813rem;
+        font-weight: 400;
+    }
+    
+    .h6 {
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+    
+    nav {
+        /* height: 73px;
+        overflow: hidden;
+        transition: height 1s; */
+    }
+    .nav a {
+        display: none;
+    }
+    .mobile-menu-button {
+        display: block;
+        margin-left: 16px;
+    }
+
+    .mobile-menu {
+        height: 100vh;
+        position: absolute;
+        background-color: white;
+        top: 0;
+        display: block; 
+    }
+    .mobile-menu a{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .mobile-menu .logo{
+        display: none;
+    }
+    .mobile-menu .nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    .mobile-menu .change-theme-icon, .mobile-menu .mobile-menu-button{
+        display: none;
+    }
+    .mobile-menu .mobile-menu-decoration {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 106px;
+    }
+    .mobile-menu .mobile-menu-button-off {
+        display: inline-block;
+        float: right;
+        margin-left: auto;
+    }
+    .container {
+    
+    }
+    .w-50 {
+        width: unset;
+    }
+    /*Первый блок*/
+    .home {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+    }
+    .home img {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .home h1{
+        margin-bottom: 12px;
+    }
+    /*Второй блок*/
+    .giving {
+        padding: 0;
+    }
+    .giving_title {
+        width: 200px;
+    }
+    .gifts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gift {
+        display: inline-block;
+        text-align: center;
+    }
+    /*Третий блок*/
+    .celebrate {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.celebrate img {
+    width: 100%;
+}
+/*Четвертый блок*/
+.olds_gifts {
+    padding: 0;
+}
+.old_gifts-list{
+    padding: 0;
+    margin: 0;
+}
+.form {
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+padding: 0;
+text-align: center;
+}
+.form img {
+    margin-bottom: 17px;
+}
+
+form {  
+    margin: 40px 0 16px 0;
+    width: 80%;
+}
+form .h1{
+    text-align: center;
+}
+.form input{
+width: 100%;
+}
+
+.form button{
+width: 100%;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.one, .two, .three, .four {
+margin-bottom: 40px;
+}
+
+.footer1, .footer2{
+display: none;
+}
+.old_gifts-list{
+    text-align: center;
+}
+.newgift-list {
+    overflow: hidden;
+    width: max-content;
+}
+.newgift{
+    width: 400px;
+    margin-right: 100px;
+}
+
+.new_arrivals{
+    overflow: hidden;
+}
+.newgift-list-buttons {
+    display: block;
+}
+}
